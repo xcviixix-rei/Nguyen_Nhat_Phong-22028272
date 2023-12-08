@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="360.0" styleClass="video-call-background" stylesheets="@../App.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AppGUI.Scenes.VideoCallSceneController">
+   <children>
+      <ImageView fitHeight="166.0" fitWidth="158.0" layoutX="101.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/user.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="137.0" layoutY="327.0" opacity="0.54" prefHeight="22.0" prefWidth="86.0" text="CALLING ..." wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="114.0" layoutY="359.0" text="Haruki Rei">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Pane fx:id="videoOff" layoutX="205.0" layoutY="528.0" prefHeight="80.0" prefWidth="80.0" stylesheets="@../App.css">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="20.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/videoOn.png" />
+               </image>
+            </ImageView>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Pane>
+      <Pane fx:id="endCall" layoutX="74.0" layoutY="528.0" prefHeight="80.0" prefWidth="80.0" stylesheets="@../App.css">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="20.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/end.png" />
+               </image>
+            </ImageView>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Pane>
+      <Label layoutX="87.0" layoutY="619.0" text="End call" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="619.0" text="Turn video off">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,106 @@
+.app-background {
+    -fx-background-color: #ECE3CE;
+}
+
+.video-call-background {
+    -fx-background-color: #afd7ad;
+}
+
+.top-bar {
+    -fx-background-color: #739072;
+}
+
+.top-bar Pane{
+    -fx-background-color: #839A82;
+    -fx-background-radius: 50;
+}
+
+.top-bar Pane:hover {
+    -fx-background-color: #93a292;
+}
+
+.enter {
+    -fx-background-color: #d7cfbd;
+}
+
+.enter Pane {
+    -fx-background-color: #fff;
+    -fx-background-radius: 20;
+}
+
+.enter TextField {
+    -fx-background-color: transparent;
+    -fx-text-fill: #000;
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 14px;
+}
+
+.voice-button {
+    -fx-background-radius: 20;
+    -fx-background-color: #99be98;
+}
+
+.date-message {
+    -fx-background-radius: 20;
+    -fx-background-color: #d3cbba;
+}
+
+.top-user-message Label {
+    -fx-background-radius: 20 20 5 20;
+    -fx-background-color: #4F6F52;
+}
+
+.mid-user-message Label {
+    -fx-background-radius: 20 5 5 20;
+    -fx-background-color: #4F6F52;
+}
+
+.last-user-message Label {
+    -fx-background-radius: 20 5 20 20;
+    -fx-background-color: #4F6F52;
+}
+
+.top-other-message Label {
+    -fx-border-radius: 20 20 20 5;
+    -fx-border-width: 1;
+    -fx-border-color: #4F6F52;
+    -fx-background-radius: 20 20 20 5;
+    -fx-background-color: #ede6e6;
+    -fx-text-fill: #000;
+}
+
+.mid-other-message Label {
+    -fx-border-radius: 5 20 20 5;
+    -fx-border-width: 1;
+    -fx-border-color: #4F6F52;
+    -fx-background-radius: 5 20 20 5;
+    -fx-background-color: #ede6e6;
+    -fx-text-fill: #000;
+}
+
+.last-other-message Label {
+    -fx-border-radius: 5 20 20 20;
+    -fx-border-width: 1;
+    -fx-border-color: #4F6F52;
+    -fx-background-radius: 5 20 20 20;
+    -fx-background-color: #ede6e6;
+    -fx-text-fill: #000;
+}
+
+.call-button {
+    -fx-background-radius: 50;
+    -fx-background-color: #dcd4c1;
+}
+
+.call-button:hover {
+    -fx-background-color: #c1bbaa;
+}
+
+.video-call-background Pane {
+    -fx-background-radius: 50;
+    -fx-background-color: #9fc39e;
+}
+
+.video-call-background Pane:hover {
+    -fx-background-color: #8dac8c;
+}
